@@ -15,6 +15,7 @@
 		7F1DA6362746182000FD8847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DA6342746182000FD8847 /* LaunchScreen.storyboard */; };
 		7F1DA63E27461AB100FD8847 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DA63D27461AB100FD8847 /* Observable.swift */; };
 		7F1DA64027461C7200FD8847 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DA63F27461C7200FD8847 /* User.swift */; };
+		7F1DA64B2746238A00FD8847 /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DA64A2746238A00FD8847 /* UserCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7F1DA6372746182000FD8847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F1DA63D27461AB100FD8847 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		7F1DA63F27461C7200FD8847 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7F1DA64A2746238A00FD8847 /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				7F1DA643274622A500FD8847 /* Model */,
 				7F1DA644274622B600FD8847 /* View */,
 				7F1DA6422746228500FD8847 /* Controller */,
+				7F1DA6452746230800FD8847 /* ViewModel */,
 				7F1DA6322746182000FD8847 /* Assets.xcassets */,
 				7F1DA6372746182000FD8847 /* Info.plist */,
 			);
@@ -103,6 +106,14 @@
 				7F1DA62F2746181D00FD8847 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7F1DA6452746230800FD8847 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DA64A2746238A00FD8847 /* UserCellViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 				7F1DA62A2746181D00FD8847 /* AppDelegate.swift in Sources */,
 				7F1DA64027461C7200FD8847 /* User.swift in Sources */,
 				7F1DA62C2746181D00FD8847 /* SceneDelegate.swift in Sources */,
+				7F1DA64B2746238A00FD8847 /* UserCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
